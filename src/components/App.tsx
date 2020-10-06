@@ -4,12 +4,13 @@ import BtnFilter from "./btn-sort/btn-sort";
 import TodoList from "./list/todo-list";
 import SearchPanel from "./search-panel/search-panel";
 import InputPanel from "./top-bar/input-panel";
+import "./list/item-list/item-list.scss";
 
 function App() {
   return (
     <div className="App">
       <InputPanel />
-      <div style={{ display: "flex" }}>
+      <div className={"flexSF"}>
         <SearchPanel />
         <BtnFilter />
       </div>

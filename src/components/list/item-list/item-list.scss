@@ -36,7 +36,7 @@
 }
 .checkBlock {
   display: flex;
-  width: 380px;
+  width: 390px;
 }
 .divDelete {
   width: 100%;
@@ -84,4 +84,47 @@
 }
 .op {
   opacity: 0.5;
+}
+.styleDone {
+  width: 140px;
+}
+.flexSF {
+  display: flex;
+}
+
+@media (max-width: 500px) {
+  .task {
+    width: 338px;
+  }
+  .textDateBlock {
+    width: 280px;
+  }
+  .checkBlock {
+    display: flex;
+    width: 90%;
+  }
+  .btn-style {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    height: 100%;
+    width: 10%;
+  }
+  .size-btn-t {
+    width: 38px;
+    height: 30px;
+  }
+  .flexSF {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .topSearc {
+    margin-bottom: 10px;
+  }
+  .compliteDone {
+    display: none;
+  }
 }

@@ -63,9 +63,8 @@ const InputPanel: React.FC<typePropsSearchPanel> = ({
     <div style={{ marginTop: "20px", display: "flex" }}>
       <div className="input-group mb-3">
         <input
-          style={{ width: "150px" }}
           type="text"
-          className="form-control"
+          className=" form-control"
           placeholder="введите новую задачу"
           aria-label="Recipient's username"
           aria-describedby="basic-addon2"

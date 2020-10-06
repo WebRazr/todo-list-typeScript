@@ -53,10 +53,7 @@ const ItemList: React.FC<typeItemList> = ({ dataList }) => {
     <div className={styleTask}>
       <div className={"firstBlock"}>
         <div className={"checkBlock"}>
-          <div
-            style={{ width: "200px" }}
-            className="custom-control custom-switch"
-          >
+          <div className=" custom-control custom-switch styleDone">
             <input
               type="checkbox"
               className="custom-control-input"

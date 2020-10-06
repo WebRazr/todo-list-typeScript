@@ -20,7 +20,7 @@ const SearchPanel: React.FC<typePropsSearchPanel> = ({ searchList }) => {
     <div>
       <input
         style={{ width: "240px" }}
-        className=" form-control"
+        className="topSearc form-control"
         type="text"
         value={searchTask}
         onChange={inputText}
