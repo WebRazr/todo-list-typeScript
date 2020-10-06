@@ -41,7 +41,7 @@ const BtnFilter: React.FC = () => {
       <button
         style={{ margin: "0 5px" }}
         type="button"
-        className={styleB ? "btn btn-dark" : "btn btn-light"}
+        className={styleB ? "btn btn-dark" : "btn btn-outline-dark"}
         onClick={() => onFilterChange(name)}
         key={name}
       >
