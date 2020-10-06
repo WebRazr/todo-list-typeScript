@@ -101,7 +101,7 @@
   }
   .checkBlock {
     display: flex;
-    width: 90%;
+    width: 280px;
   }
   .btn-style {
     display: flex;
@@ -126,5 +126,21 @@
   }
   .compliteDone {
     display: none;
+  }
+}
+@media (max-width: 330px) {
+  .task {
+    width: 315px;
+  }
+  .size-btn-t {
+    width: 33px;
+    height: 25px;
+  }
+  .textDateBlock {
+    width: 270px;
+  }
+  .checkBlock {
+    display: flex;
+    width: 270px;
   }
 }
