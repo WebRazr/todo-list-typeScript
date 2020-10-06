@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/todo-list-typeScript/static/css/main.6f2b7f43.chunk.css",
+    "main.js": "/todo-list-typeScript/static/js/main.ba68d389.chunk.js",
+    "main.js.map": "/todo-list-typeScript/static/js/main.ba68d389.chunk.js.map",
+    "runtime-main.js": "/todo-list-typeScript/static/js/runtime-main.7154366c.js",
+    "runtime-main.js.map": "/todo-list-typeScript/static/js/runtime-main.7154366c.js.map",
+    "static/js/2.394db2da.chunk.js": "/todo-list-typeScript/static/js/2.394db2da.chunk.js",
+    "static/js/2.394db2da.chunk.js.map": "/todo-list-typeScript/static/js/2.394db2da.chunk.js.map",
+    "index.html": "/todo-list-typeScript/index.html",
+    "precache-manifest.7e3ff3c35dde26ec5ad3d4b27c865b15.js": "/todo-list-typeScript/precache-manifest.7e3ff3c35dde26ec5ad3d4b27c865b15.js",
+    "service-worker.js": "/todo-list-typeScript/service-worker.js",
+    "static/css/main.6f2b7f43.chunk.css.map": "/todo-list-typeScript/static/css/main.6f2b7f43.chunk.css.map",
+    "static/js/2.394db2da.chunk.js.LICENSE.txt": "/todo-list-typeScript/static/js/2.394db2da.chunk.js.LICENSE.txt",
+    "static/media/item-list.scss": "/todo-list-typeScript/static/media/save.06174ccf.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.7154366c.js",
+    "static/js/2.394db2da.chunk.js",
+    "static/css/main.6f2b7f43.chunk.css",
+    "static/js/main.ba68d389.chunk.js"
+  ]
+}
