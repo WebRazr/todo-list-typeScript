@@ -1,0 +1,87 @@
+.task {
+  border: 1px solid black;
+  border-radius: 10px;
+  margin: 10px 0;
+  padding: 10px;
+  width: 460px;
+  height: 110px;
+  display: flex;
+  background-color: #fff8dc;
+  .firstBlock {
+    display: flex;
+    flex-direction: column;
+  }
+}
+.textDateBlock {
+  width: 390px;
+  .textBlock {
+    width: 100%;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    p {
+      margin-left: 10px;
+    }
+  }
+  .DateBlock {
+    width: 100%;
+    height: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    p {
+      margin: 0px 20px;
+    }
+  }
+}
+.checkBlock {
+  display: flex;
+  width: 380px;
+}
+.divDelete {
+  width: 100%;
+  height: 100%;
+  background-image: url(delet.png);
+  background-size: 100% 100%;
+}
+.divEdit {
+  width: 100%;
+  height: 100%;
+  background-image: url(./edit.png);
+  background-size: 100% 85%;
+  background-repeat: no-repeat;
+}
+.divSave {
+  width: 100%;
+  height: 100%;
+  background-image: url(./save.png);
+  background-size: 100% 100%;
+}
+.btn-style {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  height: 100%;
+  width: 150px;
+}
+.size-btn-t {
+  width: 47px;
+  height: 40px;
+}
+.compliteDone {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-top: 4px;
+  width: 170px;
+  height: 34px;
+  font-size: 1.1em;
+}
+.addStyleColor {
+  border: 4px solid red;
+  height: 108px;
+}
+.op {
+  opacity: 0.5;
+}
